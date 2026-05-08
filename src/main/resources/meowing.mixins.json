@@ -1,0 +1,24 @@
+{
+	"required": true,
+	"package": "spz.meowing.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"ChatMixin",
+		"DrawContextAccessor",
+		"ExampleMixin",
+		"GameRendererMixin",
+		"HeldItemRendererMixin",
+		"LivingEntityMixin",
+		"PingMixin",
+		"ScoreboardTextMixin",
+		"TooltipMixin",
+		"WorldMixin"
+	],
+	"mixins": [],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

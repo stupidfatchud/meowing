@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "meowing",
+	"version": "${version}",
+	"name": "meowing",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/meowing/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"spz.meowing.Meowing"
+		]
+	},
+	"accessWidener": "meowing.accesswidener",
+	"mixins": [
+		"meowing.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
